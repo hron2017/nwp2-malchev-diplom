@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<!-- img, title   -->
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<!-- connection css -->
+	
+	
+	<!-- connection Fontawesome -->
+	
+	
+	<style> body {opacity: 0; overflow-x: hidden;} html {background-color: #fff; }</style>
+</head>
+
+<body>
+	<header class="header">
+
+
+		<div class="header-top-line">
+			<div class="wrap-inner flex-container">
+				<div class="top-line-menu">
+					<ul class="site-nav-list">
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Блог</a></li>
+						<li><a href="#">О платформе</a></li>
+						<li><a href="#">Наши услуги</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="top-line-checkin">
+					<div class="to-come-in">
+						<a href="#"><span>Войти</span></a> или <a href="#"><span>зарегистрироваться</span></a>
+					</div>
+					<a href="#" class="chat-bot">Твой личный помошник чат-бот Limo</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="header-center">
+			<div class="wrap-inner flex-container">
+				<a href="#" class="logo"><img src="img/logo/Logo-01.svg" alt="Franchise Limo"></a>
+				<div class="header-submit">
+					<input type="submit" value="Подписаться на рассылку прелложений" class="search-submit">
+				</div>
+				<div class="search">
+					<form action="" class="form__search" method="GET">
+						<input type="text" placeholder="Введите Ваш запрос для поиска по сайту" class="search__input">
+						<div class="search__bottom"><i class="fa fa-search" aria-hidden="true"></i></div>
+					</form>
+				</div>
+				<div class="phones-list">
+	        <ul>
+	          <li>+38 (066) 123 45 67</li>
+	          <li>+38 (066) 123 45 67</li>
+	        </ul>
+	        <a href="#">Заказать обратный звонок</a>
+	    	</div>
+			</div>
+		</div>
+
+		<div class="header-bottom" id="proposals-active">
+			<div class="wrap-inner ">
+				<ul class="proposals flex-container">
+					<li class="proposals-item" id="proposals-item"><a href="#" class="proposals-link" >Франшизы</a></li>
+					<li class="proposals-item"><a href="#" class="proposals-link">Инвестировать</a></li>
+					<li class="proposals-item"><a href="#" class="proposals-link">Купить компанию</a></li>
+					<li class="proposals-item"><a href="#" class="proposals-link">Создать свой проект</a></li>
+				</ul>
+			</div>
+			<div class="drop-down-menu" id="drop-menu-hidden">
+				<div class="wrap-inner">
+					<ul class="drop-menu flex-container">
+						<li class="drop-menu-item"><a href="#top-offers" class="drop-menu-link"><span>Топ </span>предложения</a></li>
+						<li class="drop-menu-item"><a href="#" class="drop-menu-link">Популярные предложения</a></li>
+						<li class="drop-menu-item"><a href="#" class="drop-menu-link">Акционные предложения</a></li>
+						<li class="drop-menu-item"><a href="#" class="drop-menu-link">Недорогие предложения</a></li>
+						<li class="drop-menu-item"><a href="#" class="drop-menu-link">Лучшие предложения в сфере услуг</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+	</header>
+
+<!--    MAIN FOTOSLIDER       -->
+
+
+	<section class="main-photoslider">
+		<div class="photoslider-content">
+			<h1>Гарантированный успех совместно <br>с известными брендами.</h1> <span>Действуй уже сейчас!</span><br>
+			<button class="photoslider-button">Приобрести франшизу</button>
+			<button class="photoslider-button">Расместить свою франшизу</button>
+		</div>
+		<div class="owl-carousel carousel-main owl-theme">
+			<div class="main-photoslider-slide background" style="background-image: url(img/main-picture/main-picture.png);"></div>
+	    <div class="main-photoslider-slide background" style="background-image: url(img/main-picture/main-picture.png);"></div>
+	    <div class="main-photoslider-slide background" style="background-image: url(img/main-picture/main-picture.png);"></div> 
+		</div>
+		<div class="main-navigation wrap-inner">
+				<ul class="main-navigation-list flex-container">
+					<li class="main-search">
+						<input type="submit" value="Стоимость предложения" class="main-search-input">
+						<div class="arrow-down"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+					</li>
+					<li class="main-search">
+						<input type="submit" value="Сфера бизнеса" class="main-search-input">
+						<div class="arrow-down"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+					</li>
+					<li class="main-search">
+						<input type="submit" value="Стоимость предложения" class="main-search-input">
+						<div class="arrow-down"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+					</li>
+					<li class="main-search">
+						<input type="submit" value="Начальные инвестиции" class="main-search-input">
+						<div class="arrow-down"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+					</li>
+					<li class="main-search">
+						<input type="submit" value="Срок окупаемости" class="main-search-input">
+						<div class="arrow-down"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+					</li>
+					<li class="main-search">
+						<input type="submit" value="Регион развития" class="main-search-input">
+						<div class="arrow-down"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+					</li>
+					<li class="main-search">
+						<button class="main-search-input button-action">Подобрать</button>
+					</li>
+				</ul>
+		</div> 
+	</section>
+
+<!--   ТОП ПРЕДЛОЖЕНИЕ  -->
+
+	<section class="top-offers">
+		<div class="wrap-inner">
+			<div class="offers-content">
+				<h3 id="top-offers"><span>ТОР </span>предложения</h3>
+				<a href="#" class="linck-action">Смотреть остальные</a>
+			</div>
+			<div class="franchises-container flex-container">
+				<div class="new-franchises-block revealator-slideright revealator-delay3" id="ggg">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-1.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>rainbow school</h4>
+						<p>Международная сеть детских бизнес-школ</p>
+					</div>
+					
+					<div class="franchises-read">
+						<div class="franchises-text">
+							<h4>rainbow school</h4>
+							<p>Международная сеть детских бизнес-школ</p>
+						</div>
+						<ul>
+							<li>Сфера безнеса: <span>предоставление услуг</span></li>
+							<li>Стоимость предложения: <span>3500 $</span></li>
+							<li>Начальные инвестиции: <span>от 1 000$</span></li>
+							<li>Срок окупаемости: <span>6 месяцев</span></li>
+						</ul>
+            <a class="franchises-read-link button-action" href="#">подробнее</a>      
+          </div>
+				</div>
+
+
+
+
+				<div class="new-franchises-block revealator-slideright revealator-delay2">
+					<div class="flipper">
+						<div class="franchises-front">
+							<div class="franchises-img">
+								<img src="img/top-offers/franchises-img-2.jpg" alt="">
+							</div>
+							<div class="franchises-text">
+								<h4>Название франшизы</h4>
+								<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+							</div>
+						</div>
+					
+						<div class="franchises-back">
+							<div class="franchises-text">
+								<h4>rainbow school</h4>
+								<p>Международная сеть детских бизнес-школ</p>
+							</div>
+							<ul>
+								<li>Сфера безнеса: <span>предоставление услуг</span></li>
+								<li>Стоимость предложения: <span>3500 $</span></li>
+								<li>Начальные инвестиции: <span>от 1 000$</span></li>
+								<li>Срок окупаемости: <span>6 месяцев</span></li>
+							</ul>
+	            <a class="franchises-read-link button-action" href="#">подробнее</a> 
+	          </div>
+					</div>
+				  <div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>			
+				</div>
+
+
+				<div class="new-franchises-block revealator-slideright revealator-delay1">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-3.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+				<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-4.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay3">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-1.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>rainbow school</h4>
+						<p>Международная сеть детских бизнес-школ</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay2">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-2.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay1">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-3.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-4.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!--		ЛУчшая франшиза		-->
+
+
+	<section class="best-franchises">
+		<div class="wrap-inner">
+			<div class="best-franchises-content">
+				<h2>Rainbow School</h2>
+				<span>Международная сеть детских бизнес-школ</span>
+				<p>Лучшая франшиза 2016 года <br> в сфере образования</p>
+				<input type="submit" value="Подробнее" class="button-action">
+			</div>
+		</div>
+		<div class="carousel-franchises owl-carousel owl-theme">
+			<div class="franchises-slide background" style="background-image: url(img/best-franchises/best-franchises-1.jpg);"></div>
+			<div class="franchises-slide background" style="background-image: url(img/best-franchises/best-franchises-1.jpg);"></div>
+			<div class="franchises-slide background" style="background-image: url(img/best-franchises/best-franchises-1.jpg);"></div>
+		</div>
+	</section>
+
+<!-- -->
+	
+	<section class="featured-offers">
+		<div class="wrap-inner">
+			<div class="offers-content">
+				<h3><span>Популярные </span>предложения</h3>
+				<a href="#" class="linck-action">Смотреть остальные</a>
+			</div>
+			<div class="franchises-container flex-container">
+				<div class="new-franchises-block revealator-slideright revealator-delay3">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-1.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>rainbow school</h4>
+						<p>Международная сеть детских бизнес-школ</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay2">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-2.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay1">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-3.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-4.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay3">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-1.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>rainbow school</h4>
+						<p>Международная сеть детских бизнес-школ</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay2">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-2.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay1">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-3.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block revealator-slideright revealator-delay">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-4.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="page-caption background" style="background-image: url(img/page-caption/inside-banner-calculators.png);">
+		<div class="wrap-inner">
+			<div class="flex-container">
+	      <div class="sharing-bar">
+	        <h3>Хочешь быть всегда в курсе лучших предложений <br>специально для тебя?</h3>
+	        <form action="#" class="subscribe-form">
+	          <label for="#"><input type="email" placeholder="Введите ваш e-mail" name="subscriberEmail"></label>
+	          <input type="submit" value="Подписаться на рассылку предложений" class="button-action">
+	        </form>
+	      </div>
+      </div>
+		</div>
+	</section>
+
+	<!-- АКЦИОННЫЕ И НЕ ДОРОГИЕ  -->
+	
+	<section class="sale">
+		<div class="wrap-inner">
+			<div class="offers-content">
+				<h3><span>Акционные </span>предложения</h3>
+				<a href="#" class="linck-action">Смотреть остальные</a>
+			</div>
+			<div class="franchises-container flex-container">
+				<div class="owl-carousel franchises-carousel-prev">
+				<div class="new-franchises-block ">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-1.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>rainbow school</h4>
+						<p>Международная сеть детских бизнес-школ</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-2.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-3.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-4.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-4.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+
+
+			<div class="offers-content">
+				<h3><span>Недорогие </span>предложения</h3>
+				<a href="#" class="linck-action">Смотреть остальные</a>
+			</div>
+			<div class="franchises-container flex-container">
+		
+				<div class="owl-carousel franchises-carousel-prev">
+				<div class="new-franchises-block ">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-1.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>rainbow school</h4>
+						<p>Международная сеть детских бизнес-школ</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-2.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-3.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-4.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				<div class="new-franchises-block">
+					<div class="franchises-img">
+						<img src="img/top-offers/franchises-img-4.jpg" alt="">
+					</div>
+					<div class="franchises-text">
+						<h4>Название франшизы</h4>
+						<p>Сервис оренды и обмена коктельных и вечерних платьев</p>
+					</div>
+					<div class="franchises-iconed">
+						<div class="franchises-favorites">
+							<div>Добавить в избранное</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+	</section>
+
+<!--		ЛУчшая франшиза		-->
+
+
+	<section class="best-franchises">
+		<div class="wrap-inner">
+			<div class="best-franchises-content">
+				<h2>Rainbow School</h2>
+				<span>Международная сеть детских бизнес-школ</span>
+				<p>Лучшая франшиза 2016 года <br> в сфере образования</p>
+				<input type="submit" value="Подробнее" class="button-action">
+			</div>
+		</div>
+		<div class="carousel-franchises owl-carousel owl-theme">
+			<div class="franchises-slide background" style="background-image: url(img/best-franchises/best-franchises-2.jpg);"></div>
+			<div class="franchises-slide background" style="background-image: url(img/best-franchises/best-franchises-2.jpg);"></div>
+			<div class="franchises-slide background" style="background-image: url(img/best-franchises/best-franchises-2.jpg);"></div>
+		</div>
+	</section>
+	
+
+	<!-- НОВОСТИ И ВИДЕО  -->
+		
+		<section class="site-news site-video">
+			<div class="wrap-inner">
+				<div class="offers-content">
+					<h3>Блог </span>новостей</h3>
+					<a href="#" class="linck-action">Смотреть остальные</a>
+				</div>
+				<div class="news-blog-container flex-container">
+					<div class="owl-carousel franchises-carousel-prev">
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/blog-news/news-blog.jpg" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+							<div class="franchises-iconed">
+								<div class="franchises-favorites">
+									<div>Добавить в избранное</div>
+								</div>
+							</div>
+						</div>
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/blog-news/news-blog.jpg" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+						</div>
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/blog-news/news-blog.jpg" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+						</div>
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/blog-news/news-blog.jpg" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+						</div>
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/blog-news/news-blog.jpg" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			
+				<div class="offers-content">
+					<h3>Видео</h3>
+					<a href="#" class="linck-action">Смотреть остальные</a>
+				</div>
+				<div class="news-blog-container flex-container">
+					<div class="owl-carousel franchises-carousel-prev">
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/video/video-contant.jpg" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+							<div class="franchises-iconed">
+								<div class="franchises-favorites">
+									<div>Добавить в избранное</div>
+								</div>
+							</div>
+						</div>
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/video/video-contant-1.png" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+						</div>
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/video/video-contant-2.png" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+						</div>
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/blog-news/news-blog.jpg" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+						</div>
+						<div class="news-blog">
+							<div class="news-img">
+								<img src="img/blog-news/news-blog.jpg" alt="">
+							</div>
+							<div class="news-text">
+								<p>Очень длинное название статьи, и ещё название, которое длиннее самого названия</p>
+							</div>
+							<div class="news-footer">
+								<div class="news-footer-date"><div class="date-icon"></div>14.01.2018</div>
+								<div class="news-footer-views"><div class="views-icon"></div>1246</div>
+								<div class="news-footer-like"><div class="like-icon"></div>123</div>
+								<div class="news-footer-coment"><div class="coment-icon"></div>32</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	<section class="page-caption background" style="background-image: url(img/page-caption/obdl960.jpg);">
+		<div class="wrap-inner">
+			<div class="flex-container">	
+	      <div class="sharing-bar">
+	        <h3>Хочешь быть всегда в курсе лучших предложений <br>специально для тебя?</h3>
+	        <p>Подключи своего личного помошника</p>
+	        <div class="chat-bot">Твой личный помошник чат-бот Limo</div>
+	      </div>
+      </div>	
+		</div>
+	</section>
+
+	<section>
+		<div class="wrap-inner">
+			<div class="paragraph">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="footer">
+		<div class="wrap-inner">
+			<div class="flex-container">
+				<div class="footer-left-container">
+					<div class="footer-logo">
+						<img src="img/footer/footer-logo.png" alt="Franchise Limo">
+					</div>
+					<p>Стесняетесь позвонить? <br>Напишите нам!</p>
+					<a href="#">info@franchise.limo</a>
+				</div>
+				<div class="footer-center-container">
+						<ul class="franchises-list">
+							<li><a href="#">франшизы</a></li>
+							<li><a href="#">инвестировать</a></li>
+							<li><a href="#">купить компанию</a></li>
+						</ul>
+					<div class="footer-paragraph">
+						<p>Хочешь быть всегда в курсе лучших предложений специально для тебя? <br>
+						<span>Подключи своего личного помощника Limo.email или Limo.messenger</span></p>
+					</div>
+				 	<form action="#" class="subscribe-form">
+	         	<input type="submit" value="Подписаться на рассылку предложений" class="button-action">
+	          <input type="submit" value="Твой личный помощник чатбот Limo" class="button-action left">
+	        </form>
+					<ul class="footer-socials">
+						<li><a href="#" class="footer-vk"></a></li>
+	          <li><a href="#" class="footer-fb"></a></li>
+	          <li><a href="#" class="footer-insta"></a></li>
+	          <li><a href="#" class="footer-youtube"></a></li>
+					</ul>
+					<nav class="footer-nav">
+						<ul class="footer-nav-list">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Блог</a></li>
+							<li><a href="#">О платформе</a></li>
+							<li><a href="#">Наши услуги</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer-right-container">
+					<button class="button-action">Создать свой проект</button>
+						<div class="phones-list">
+			        <ul>
+			          <li>+38 (066) 123 45 67</li>
+			          <li>+38 (066) 123 45 67</li>
+			        </ul>
+		        	<a href="#">Заказать обратный звонок</a>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom ">
+			<div class="footer-bottom-inner">
+				<span>2018 Все права защищены</span>
+				<div>Разработка и поддержка сайта <span>Mela.studio</span></div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<div class="mobile-nav-menu-trigger"><div></div></div>
+	<section class="mobile-menu">
+		<div class="wrap-inner">
+			<div class="mobile-nav-menu">
+    <!-- <div class="mobile-nav-menu-cont"> -->
+		      <a href="#" class="mobile-nav-menu-logo"><img src="img/logo/Logo-01.svg" alt="limo"></a>
+		    <!-- </div> -->
+		    <nav>
+		      <ul class="mobile-nav-menu-list">
+		        <li><a href="#">Главная</a></li>
+		        <li><a href="#">О школе</a></li>
+		        <li><a href="#">Результаты учеников</a></li>
+		        <li><a href="#">Блог</a></li>
+		        <li><a href="#">Расписание занятий</a></li>
+		        <li><a href="#">Контакты</a></li>
+		      </ul>
+		    </nav>
+		    <ul class="mobile-nav-menu-contact-phones">
+		      <li>+38 (066) 123 45 67</li>
+		      <li>+38 (066) 123 45 67</li>
+		    </ul>
+		    <div class="mobile-nav-menu-socials-cont">
+		      <h3>Мы в социальных сетях</h3>
+		      <ul class="mobile-nav-menu-socials">
+		        <li><a href="#" class="mobile-nav-menu-socials-vk"></a></li>
+		        <li><a href="#" class="mobile-nav-menu-socials-fb"></a></li>
+		        <li><a href="#" class="mobile-nav-menu-socials-youtube"></a></li>
+		        <li><a href="#" class="mobile-nav-menu-socials-insta"></a></li>
+		      </ul>      
+		    </div>
+
+		    <div class="mobile-nav-menu-close closeCross"></div>
+		    <a href="#" class="mobile-nav-menu-link">Написать нам</a>
+  		</div>
+		</div>
+	</section>
+	  
+
+
+
+
+
+
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
+
+
+	
